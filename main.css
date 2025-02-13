@@ -3,19 +3,32 @@ h1{
     /* color: DarkOliveGreen; */
     color: rgb(188, 117, 117);
     text-align: center;
-    font-size: 3rem;
+    font-size: 5rem;
+    background-color: darksalmon;
 }
 
 
 .background {
-    background-image: url('Davidfoto.jpeg');
+    background-image: url('fondo.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    font-size: 2rem;
-  }
+    font-size: 3rem;
+    background-color:blanchedalmond;
+}
 
-.whole {
-    background-image: url(b05a99f42969768befb8debac1bcff7e.jpg);
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darkslategray;
+    background-color:darksalmon;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.maindirectory {
+    color:darkgrey;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: darksalmon;
 }
