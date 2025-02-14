@@ -32,3 +32,46 @@ h2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: darksalmon;
 }
+
+h3{
+    font-size: 3rem;
+    background-color:skyblue;
+}
+
+.frases{
+    font-size:1.5rem;
+}
+
+.amo{
+    color:darkred;
+}
+
+.razones{
+    font-size: 2rem;
+}
+
+.enumeradas{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.pd{
+    font-size:0.5rem;
+    color:darkslategrey;
+}
+
+h4{
+    font-family:cursive;
+    color:darkslategray;
+    background-color:darksalmon;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.musica{
+    font-size:1.5rem;
+}
+
+h5{
+    font-size:3rem;
+    text-align:center;
+}
