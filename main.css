@@ -1,10 +1,10 @@
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* color: DarkOliveGreen; */
-    color: rgb(188, 117, 117);
+    color: rgb(70, 71, 132);
     text-align: center;
     font-size: 5rem;
-    background-color: darksalmon;
+    background-color: rgb(235, 193, 179);
 }
 
 
@@ -19,18 +19,20 @@ h1{
 
 
 h2 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:darkslategray;
-    background-color:darksalmon;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(16, 27, 27);
+    background-color:rgb(206, 181, 224);
     font-size: 3rem;
     text-align: center;
 }
 
 .maindirectory {
-    color:darkgrey;
+    color: palevioletred;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: darksalmon;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(206, 181, 224);
+    /* background-color: purple; */
+    font-size:1.5rem;
 }
 
 h3{
@@ -47,22 +49,23 @@ h3{
 }
 
 .razones{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .enumeradas{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:1.5rem;
 }
 
 .pd{
-    font-size:0.5rem;
+    font-size:0.8rem;
     color:darkslategrey;
 }
 
 h4{
     font-family:cursive;
     color:darkslategray;
-    background-color:darksalmon;
+    background-color:rgb(120, 170, 161);
     font-size: 3rem;
     text-align: center;
 }
@@ -74,4 +77,39 @@ h4{
 h5{
     font-size:3rem;
     text-align:center;
+    color:cadetblue
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    background-color: blanchedalmond; /* Ajusta según lo que prefieras */
+}
+
+.heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('https://cdn-icons-png.flaticon.com/512/833/833472.png') no-repeat center;
+    background-size: contain;
+    animation: float 6s infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
 }
